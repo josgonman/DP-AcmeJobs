@@ -1,1 +1,0 @@
-INDEX VERSION 1.4+D:\OneDrive - UNIVERSIDAD DE SEVILLA\D&T1 2019-20\Acme-Jobs Workspace-1.18\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
