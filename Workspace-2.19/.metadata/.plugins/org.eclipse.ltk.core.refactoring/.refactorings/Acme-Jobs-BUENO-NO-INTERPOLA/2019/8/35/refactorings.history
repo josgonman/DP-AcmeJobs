@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Acme-Jobs;BUENO-NO-INTERPOLA&apos;&#x0D;&#x0A;- Original project: &apos;Acme-Jobs;BUENO-NO-INTERPOLA&apos;&#x0D;&#x0A;- Original element: &apos;acme.framework.configuration.ValidatorConfiguration.java&apos;" description="Delete element" element1="/src\/main\/java&lt;acme.framework.configuration{ValidatorConfiguration.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1567168842182" subPackages="false" version="1.0"/>
+</session>

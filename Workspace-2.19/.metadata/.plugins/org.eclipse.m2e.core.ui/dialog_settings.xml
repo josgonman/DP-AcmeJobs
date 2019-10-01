@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="d:\OneDrive - UNIVERSIDAD DE SEVILLA\D&amp;T1 2019-20\Acme-Jobs Workspace-1.18\Starter-Project"/>
+			<item value="d:\OneDrive - UNIVERSIDAD DE SEVILLA\D&amp;T1 2019-20\Acme-Jobs Workspace-1.18\Acme-Jobs"/>
+			<item value="d:\OneDrive - UNIVERSIDAD DE SEVILLA\D&amp;T1 2019-20\Acme-Jobs Workspace-1.18\Acme-Jobs-X1"/>
+			<item value="d:\OneDrive - UNIVERSIDAD DE SEVILLA\D&amp;T1 2019-20\Acme-Jobs Workspace-1.18\Acme-Jobs-X2"/>
+			<item value="d:\OneDrive - UNIVERSIDAD DE SEVILLA\D&amp;T1 2019-20\Acme-Jobs Workspace-1.18\Acme-Jobs-XX"/>
+			<item value="d:\OneDrive - UNIVERSIDAD DE SEVILLA\D&amp;T1 2019-20\Acme-Jobs Workspace-1.18\Acme-Jobs;BUENO-NO-INTERPOLA"/>
+			<item value="D:\OneDrive - UNIVERSIDAD DE SEVILLA\D&amp;T1 2019-20\Acme-Jobs Workspace-1.18\Acme-Jobs-NEW"/>
+			<item value="D:\Downloads\tutorials-master\spring-security-mvc-boot\spring-security-mvc-boot-default"/>
+			<item value="D:\Downloads\tutorials-master\spring-security-mvc-boot"/>
+			<item value="D:\Desktop\Acme-Jobs Workspace-1.18\Acme-Shout"/>
+			<item value="C:\Users\Administrator\Desktop\Workspace-1.18\Acme-Jobs"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

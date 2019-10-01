@@ -1,0 +1,55 @@
+1536254276373	Rename type 'ReloadableResourceBundleMessageSource'
+1536254485113	Delete element
+1536255001888	Rename resource 'credit-card_en.messages'
+1536255005404	Rename resource 'credit-card_es.messages'
+1536255762334	Rename local variable 'result'
+1536256033638	Extract method 'newMessageSource'
+1536256073439	Rename method 'newMessageSource'
+1536305152785	Rename local variable 'mergedProps'
+1536305661170	Rename local variable 'propHolder'
+1536307479639	Rename local variable 'errors'
+1536309703368	Rename local variable 'errors'
+1536310579617	Rename method 'addError'
+1536310668940	Rename local variable 'property'
+1536312491305	Delete element
+1536314055132	Copy file
+1536314200010	Rename resource 'box-alert.tag'
+1536314242186	Rename resource 'box-error.tag'
+1536314284477	Copy file
+1536314324564	Delete element
+1536314377728	Rename resource 'box-errors'
+1536314628822	Rename resource 'console-context.tag'
+1536314659747	Rename resource 'console-log.tag'
+1536314694535	Rename resource 'console-println.tag'
+1536314721655	Rename resource 'console-print.tag'
+1536314805190	Rename resource 'debug-showerrors'
+1536314832867	Rename resource 'form.tag'
+1536318334142	Rename method 'update'
+1536318370990	Rename method 'signUp'
+1536318729955	Rename local variable 'actor'
+1536319866741	Move compilation unit
+1536321191862	Rename type 'BusinessRuleException'
+1536322579901	Rename method 'refresh'
+1536322601759	Rename method 'refresh'
+1536322617439	Rename method 'refresh'
+1536322629880	Rename method 'refresh'
+1536322640068	Rename method 'refresh'
+1536330113657	Rename type 'AccountForm'
+1536330132791	Rename local variable 'form'
+1536330824373	Rename method 'addErrorMapping'
+1536331151862	Rename local variable 'employer'
+1536335359150	Delete element
+1536347874039	Rename local variable 'ctx2'
+1536349146041	Rename type 'ServiceDelegate'
+1536349155695	Rename type 'UpdateServiceDelegate'
+1536349203114	Copy compilation unit
+1536350831079	Rename local variable 'encriptor'
+1536411915560	Copy compilation unit
+1536412173316	Rename local variable 'employer'
+1536415089824	Rename package 'tags'
+1536415141751	Move compilation units
+1536415173614	Move compilation unit
+1536415511157	Delete element
+1536415832902	Move compilation unit
+1536417222628	Rename local variable 'role'
+1536425159123	Rename type 'CookieClearingLogoutHandler'

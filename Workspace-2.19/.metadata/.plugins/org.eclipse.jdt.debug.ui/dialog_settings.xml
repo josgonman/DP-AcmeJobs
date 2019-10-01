@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0" value="121"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="194"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="82"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
+	<section name="org.eclipse.jdt.debug.ui.PACKAGE_SELECTION_DIALOG_SECTION">
+		<item key="DIALOG_WIDTH" value="398"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="438"/>
+		<item key="DIALOG_X_ORIGIN" value="118"/>
+		<item key="DIALOG_Y_ORIGIN" value="7"/>
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.CREATE_STEP_FILTER_DIALOG_SECTION">
+		<item key="DIALOG_WIDTH" value="445"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="141"/>
+		<item key="DIALOG_X_ORIGIN" value="95"/>
+		<item key="DIALOG_Y_ORIGIN" value="196"/>
+	</section>
+	<section name="conditionHistory">
+		<item key="conditionHistoryEntryCount" value="6"/>
+		<item key="conditionHistoryEntry_0" value="source instanceof acme.framework.datatypes.Money"/>
+		<item key="conditionHistoryEntry_1" value="source instance of acme.framework.datatypes.Money"/>
+		<item key="conditionHistoryEntry_4" value="code == &quot;Length&quot;"/>
+		<item key="conditionHistoryEntry_2" value="code.contains(&quot;Length.message&quot;)"/>
+		<item key="conditionHistoryEntry_3" value="code.equals(&quot;Length&quot;)"/>
+		<item key="conditionHistoryEntry_5" value="code == &quot;Length&quot;&#x0D;&#x0A;"/>
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Acme-Jobs/src\/main\/java&amp;lt;com.acme{ApplicationLauncher.java[ApplicationLauncher&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Acme-Jobs/src\/main\/java&amp;lt;com.acme{DatabaseExporter.java[DatabaseExporter&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Acme-Jobs/src\/main\/java&amp;lt;com.acme{DatabasePopulator.java[DatabasePopulator&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Acme-Jobs/src\/main\/java&amp;lt;com.acme{PasswordHasher.java[PasswordHasher&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Acme-Jobs/src\/main\/java&amp;lt;com.acme{DatabaseInquirer.java[DatabaseInquirer&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Acme-Jobs/src\/main\/java&amp;lt;acme{DatabaseExporterLauncher.java[DatabaseExporterLauncher&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Acme-Jobs/src\/main\/java&amp;lt;acme{DatabaseExporter.java[DatabaseExporter&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Acme-Jobs/src\/main\/java&amp;lt;acme{Launcher.java[Launcher&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Acme-Jobs;BUENO-NO-INTERPOLA/src\/main\/java&amp;lt;acme{Launcher.java[Launcher&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Acme-Jobs-X1/src\/main\/java&amp;lt;acme{Launcher.java[Launcher&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Starter-Project/src\/main\/java&amp;lt;acme{Launcher.java[Launcher&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_WIDTH" value="393"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+			<item key="DIALOG_HEIGHT" value="523"/>
+			<item key="DIALOG_X_ORIGIN" value="93"/>
+			<item key="DIALOG_Y_ORIGIN" value="8"/>
+		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
+		<item key="SashWeightTree" value="593"/>
+		<item key="SashWeightDetails" value="406"/>
+		<item key="WIDTH" value="614"/>
+		<item key="HEIGHT" value="194"/>
+	</section>
+	<section name="STRING_VALUE_INPUT_DIALOG">
+		<item key="USE_EVALUATION" value="false"/>
+		<item key="DIALOG_WIDTH" value="378"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="407"/>
+		<item key="WRAP_TEXT" value="true"/>
+		<item key="DIALOG_X_ORIGIN" value="662"/>
+		<item key="DIALOG_Y_ORIGIN" value="255"/>
+	</section>
+	<section name="AddExceptionDialog">
+		<item key="caughtChecked" value="true"/>
+		<item key="uncaughtChecked" value="true"/>
+	</section>
+	<section name="expressionHistory">
+	</section>
+</section>

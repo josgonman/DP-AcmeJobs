@@ -1,0 +1,109 @@
+﻿
+package com.acme.$framework.services;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.Validator;
+
+import com.acme.$framework.entities.UserAccount;
+import com.acme.$framework.exceptions.BusinessRuleException;
+import com.acme.$framework.repositories.UserAccountRepository;
+import com.acme.$framework.utilities.helpers.BindingResultHelper;
+import com.acme.domain.entities.Actor;
+import com.acme.forms.AccountForm;
+import com.acme.forms.SignUpForm;
+import com.acme.repositories.ActorRepository;
+import com.acme.repositories.RoleRepository;;
+
+@Service
+@Transactional
+public class UserAccountService implements UserDetailsService {
+
+	// Managed repository -----------------------------------------------------
+
+	@Autowired
+	Validator				validator;
+
+	@Autowired
+	UserAccountRepository	userAccountRepository;
+
+	@Autowired
+	ActorRepository			actorRepository;
+
+	@Autowired
+	RoleRepository			roleRepository;
+
+
+	// Business methods -------------------------------------------------------
+
+	@Override
+	public UserDetails loadUserByUsername(final String username) throws UsernameNotFoundException {
+		UserDetails result;
+
+		result = userAccountRepository.findByUsername(username);
+		if (result == null)
+			throw new UsernameNotFoundException(username);
+
+		// WARNING: The following sentences prevent lazy initialisation problems!
+		result.getAuthorities().size();
+
+		return result;
+	}
+
+	public void update(final SignUpForm form, final BindingResult binding) {
+		UserAccount userAccount;
+
+		try {
+			userAccount = userAccountRepository.refresh(form);
+			validator.validate(form, binding);
+			
+			if (!form.getPassword().equals(form.getConfirmation()))
+				BindingResultHelper.addError(binding, "confirmation", "public.sign-up.do-not-match");
+			if (!form.isAccept())
+				BindingResultHelper.addError(binding, "accept", "public.sign-up.must-accept");
+			
+			if (binding.hasErrors())
+				throw new BusinessRuleException();
+			else {
+				actorRepository.save(userAccount.getActor());
+				roleRepository.saveAll(userAccount.getActor().getRoles());
+				userAccountRepository.save(userAccount);
+			}
+		} catch (BusinessRuleException oops) {
+			throw oops;
+		} catch (final Throwable oops) {
+			if (oops instanceof DataIntegrityViolationException)
+				BindingResultHelper.addError(binding, "username", "public.sign-up.duplicated");
+			throw new BusinessRuleException(oops, "sign-up.failure");
+		}
+	}
+
+	public void update(final AccountForm form, final BindingResult errors) {
+		final Actor actor;
+		final UserAccount userAccount;
+
+		try {
+			userAccount = userAccountRepository.refresh(form);
+			validator.validate(userAccount, errors);
+			if (errors.hasErrors())
+				throw new BusinessRuleException();
+			else {
+				userAccountRepository.save(userAccount);
+			}
+		} catch (BusinessRuleException oops) {
+			throw oops;
+		} catch (final Throwable oops) {
+			if (oops instanceof DataIntegrityViolationException)
+				BindingResultHelper.addError(errors, "username", "public.sign-up.duplicated");
+			throw new BusinessRuleException(oops);
+		}
+	}
+
+}

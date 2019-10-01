@@ -1,0 +1,26 @@
+1535818735627	Rename local variable 'caught'
+1535819902423	Rename local variable 'accountForm'
+1535820865900	Rename local variable 'userAccount'
+1535821082867	Move compilation unit
+1535821112206	Move compilation unit
+1535821122549	Move compilation unit
+1535821134822	Move compilation unit
+1535821140519	Move compilation units
+1535821149525	Rename type 'ThrowablePrinter'
+1535821154259	Move compilation unit
+1535821173434	Rename type 'EntityPrinter'
+1535821177768	Move compilation unit
+1535821362363	Rename local variable 'errors'
+1535821652035	Rename field 'mode'
+1535821665340	Rename local variable 'action'
+1535821853417	Rename local variable 'signUpForm'
+1535822141139	Copy compilation unit
+1535823702193	Rename resource 'logback.xml'
+1535823752096	Rename resource '__logback.xml'
+1535824531004	Delete element
+1535824553400	Rename type 'PanicHandler'
+1535827083099	Rename method 'computeDetailModelAttribute'
+1535827090942	Rename method 'computeViewName'
+1535827120569	Rename method 'computeListModelAttribute'
+1535829675323	Delete element
+1535829698574	Delete element

@@ -1,0 +1,135 @@
+1565200308683	Move compilation unit
+1565200313121	Move compilation unit
+1565200322548	Rename type 'Public'
+1565200774116	Delete element
+1565200801244	Delete element
+1565200836426	Delete element
+1565254663958	Rename package 'com.acme.domain.roles'
+1565254669473	Move compilation unit
+1565254725615	Copy package
+1565254761740	Rename package 'com.acme.$framework'
+1565254774778	Rename package 'info.tdg.$framework'
+1565254792802	Delete element
+1565254914706	Rename package 'com.acme.domain.entities'
+1565254918539	Delete element
+1565258427420	Copy compilation unit
+1565258454764	Rename type 'Actor'
+1565259224993	Copy compilation unit
+1565259394823	Copy compilation unit
+1565260355212	Move compilation unit
+1565260359249	Delete element
+1565260501558	Rename method 'getActor'
+1565260642568	Rename package 'com.acme.controllers._public'
+1565260842098	Rename type 'PublicProfileController'
+1565261085450	Delete element
+1565261287679	Rename local variable 'actor'
+1565261308146	Delete element
+1565261541895	Rename field 'actorService'
+1565261885323	Delete element
+1565261916471	Rename field 'actorService'
+1565266701391	Rename package 'com.acme.domain.actors'
+1565266706855	Rename type 'Actor'
+1565275180713	Rename local variable 'tokens'
+1565275554022	Move compilation unit
+1565275566340	Move compilation unit
+1565275588102	Rename type 'User'
+1565275608271	Move compilation unit
+1565275616795	Copy compilation unit
+1565275623254	Move compilation unit
+1565275630863	Rename type 'Role'
+1565275682393	Copy compilation unit
+1565275829932	Move compilation unit
+1565275864022	Rename type 'Actor'
+1565275872441	Rename type 'Indentityç'
+1565276186948	Move compilation unit
+1565276319747	Copy compilation unit
+1565276402583	Rename type 'UserAccount'
+1565276416595	Rename type 'UserIdentity'
+1565276425907	Rename type 'UserRole'
+1565276524988	Rename field 'role'
+1565278992022	Rename type 'Role'
+1565279006650	Rename type 'Identity'
+1565279017060	Rename type 'Account'
+1565279605831	Rename type 'UserIdentity'
+1565279623105	Rename type 'UserRole'
+1565279650894	Rename method 'getUserRoles'
+1565279746005	Delete element
+1565279803041	Rename type 'UserAccount'
+1565279825822	Rename type 'Account'
+1565283481925	Rename package 'com.acme.controllers.anonymous'
+1565283500146	Rename type 'AnonymousProfileController'
+1565284391794	Rename type 'Indentity'
+1565284709477	Rename type 'Identity'
+1565285129058	Delete element
+1565285176498	Rename field 'actorService'
+1565285505558	Delete elements
+1565286631615	Delete element
+1565287930052	Delete element
+1565288966731	Delete elements
+1565339263552	Copy compilation unit
+1565339271402	Rename type 'AuthenticationBridge'
+1565339700953	Rename type 'Anonymous'
+1565347564430	Copy compilation unit
+1565347621918	Move compilation unit
+1565347631308	Rename type 'RoleRepository'
+1565347640945	Rename type 'Role'
+1565347668294	Rename type 'Public'
+1565347697890	Rename type 'UserData'
+1565347711175	Rename type 'UserDataRepository'
+1565349488964	Copy file
+1565349775190	Rename resource 'account.jsp'
+1565350036590	Rename local variable 'accountForm'
+1565352161691	Rename local variable 'codes'
+1565352300340	Rename local variable 'codes'
+1565352508650	Rename local variable 'error'
+1565352512154	Rename local variable 'error'
+1565352884319	Rename method 'createFieldError'
+1565352891835	Rename local variable 'fieldName'
+1565360273175	Rename type 'PublicProfileController'
+1565360361207	Delete element
+1565361859393	Rename field 'userData'
+1565364748476	Rename resource 'actor.jsp'
+1565364852648	Copy files
+1565364859574	Copy files
+1565364893252	Copy files
+1565364908420	Move 5 resources to 'user-account'
+1565365046497	Move 'company.jsp' to 'public'
+1565365080342	Delete element
+1565365105424	Rename resource 'user-account.jsp'
+1565367735323	Move compilation units
+1565427064832	Rename local variable 'userData'
+1565427451184	Rename local variable 'roleClazz'
+1565427455803	Rename field 'roleClazz'
+1565427476446	Rename field 'roleName'
+1565427792922	Rename field 'userDataRepository'
+1565431781887	Rename type 'DomainEntity'
+1565431812284	Rename type 'TransferObject'
+1565431867530	Rename type 'Record'
+1565432334171	Rename type 'TransferObject'
+1565432523790	Rename type 'ListViewGetDelegate'
+1565434540117	Rename field 'bindingResult'
+1565442886958	Move compilation unit
+1565445902822	Rename resource 'detail.jsp'
+1565445917085	Rename resource 'form.jsp'
+1565445935189	Rename resource 'detail.jsp'
+1565448191570	Rename local variable 'binding'
+1565449803692	Rename resource 'debug-showcontext.tag'
+1565449854008	Rename resource 'debug-showerrors.tag'
+1565449861251	Rename resource 'debug-showmodel.tag'
+1565451525436	Rename resource 'debug-help'
+1565452544880	Copy compilation unit
+1565452568907	Rename type 'NamedEntity'
+1565455798514	Copy compilation unit
+1565455968020	Copy compilation unit
+1565456035509	Copy compilation unit
+1565456074667	Copy compilation unit
+1565456859315	Rename resource 'credentials.jsp'
+1565456887586	Copy folder
+1565456901848	Delete element
+1565456915017	Delete elements
+1565456928588	Copy file
+1565457498929	Delete element
+1565457567537	Rename type 'PublicRole'
+1565457572416	Delete element
+1565457589968	Rename local variable '_public'
+1565457679992	Rename local variable 'userIdentity'

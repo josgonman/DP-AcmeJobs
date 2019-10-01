@@ -1,0 +1,9 @@
+-- Create users
+
+drop user if exists 'acme-user'@'%';
+create user 'acme-user'@'%' identified with mysql_native_password by 'ACME-Us3r-P@ssw0rd';
+revoke all privileges, grant option from 'acme-user'@'%';
+
+drop user if exists 'acme-manager'@'%';
+create user 'acme-manager'@'%' identified with mysql_native_password by 'ACME-M@n@ger-6874';
+revoke all privileges, grant option from 'acme-manager'@'%';

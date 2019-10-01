@@ -1,0 +1,183 @@
+1566286071876	Delete element
+1566295063614	Rename type 'UserAccountService'
+1566295125257	Rename type 'ApplicationService'
+1566295144356	Rename type 'EmployerService'
+1566295176030	Rename type 'JobService'
+1566295184526	Rename type 'WorkerService'
+1566295276468	Copy compilation unit
+1566295280057	Rename type 'WorkerJobService2'
+1566295339505	Move compilation units
+1566295362188	Move compilation unit
+1566295373527	Move compilation units
+1566295435745	Copy compilation unit
+1566295442043	Rename type 'WorkerApplicationService'
+1566295558520	Copy compilation unit
+1566295566262	Rename type 'EmployerJobService'
+1566295846171	Copy compilation unit
+1566295852785	Move compilation unit
+1566295883764	Delete element
+1566295887168	Delete elements
+1566295912053	Move compilation units
+1566295921071	Move compilation units
+1566296051397	Move compilation unit
+1566296182488	Rename type 'AuthenticationBridgeService'
+1566297107292	Rename field 'accepted'
+1566297304179	Rename method 'getAttribute'
+1566297312001	Rename method 'setAttribute'
+1566298494657	Rename method 'checkPasswords'
+1566298504335	Rename method 'isPasswordEncoded'
+1566298511046	Rename method 'encodePassword'
+1566298517724	Rename type 'SecurityHelper'
+1566299236427	Delete element
+1566299248489	Rename resource 'form-attribute-errors.tag'
+1566299730870	Rename method 'checkAccess'
+1566301777469	Rename method 'copyWithoutProperties'
+1566301795283	Rename method 'copyWithProperties'
+1566302250820	Rename type 'EntityHelper'
+1566303435166	Delete element
+1566303440677	Delete element
+1566303468130	Delete element
+1566303486200	Delete element
+1566304088867	Rename resource 'debug-bindingresult.tag'
+1566313280611	Rename resource 'i18n_es.messsages'
+1566318619926	Rename type 'DefaultUserAccountController'
+1566319830521	Rename local variable 'adapterBindingName'
+1566319835559	Rename local variable 'modelBindingName'
+1566320497518	Copy compilation unit
+1566322105318	Rename method 'get'
+1566322116127	Rename method 'set'
+1566326149783	Rename method 'get'
+1566332385501	Rename method 'isAccesssAccepted'
+1566376286658	Rename local variable 'httpRequest'
+1566376552652	Copy compilation unit
+1566376794740	Move compilation unit
+1566378830326	Copy compilation unit
+1566378886476	Copy compilation unit
+1566379266431	Delete element
+1566379270850	Rename type 'ListModel'
+1566379356094	Rename local variable 'formModel'
+1566379894420	Delete element
+1566379909685	Delete element
+1566380001849	Delete element
+1566380570048	Copy compilation unit
+1566381293031	Rename field 'view'
+1566381299457	Rename local variable 'view'
+1566381748501	Rename method 'create'
+1566381884442	Rename local variable 'i'
+1566381925253	Rename local variable 'current'
+1566382111136	Rename local variable 'data'
+1566382263792	Copy compilation unit
+1566382803099	Rename local variable 'view'
+1566383144460	Rename local variable 'object'
+1566383151476	Rename local variable 'objects'
+1566383761987	Rename method 'refreshPrincipal'
+1566383787450	Rename method 'getPrincipal'
+1566384914698	Delete element
+1566386170509	Delete element
+1566386706832	Rename local variable 'inclusions'
+1566386759160	Rename method 'copyExclusingProperties'
+1566386837596	Rename method 'copyIncludingProperties'
+1566387563245	Rename method 'reconstruct'
+1566387780351	Rename method 'reconstruct'
+1566387882445	Rename method 'reconstruct'
+1566387935749	Rename method 'deconstruct'
+1566387948491	Rename method 'deconstruct'
+1566390233136	Rename local variable 'entity'
+1566390237153	Rename local variable 'model'
+1566390244177	Rename local variable 'entity'
+1566390248195	Rename local variable 'model'
+1566390859466	Rename method 'buildSuccessView'
+1566398839324	Rename type 'LocaleConfiguration'
+1566398844318	Delete element
+1566399039486	Move compilation unit
+1566399075437	Move compilation unit
+1566399077360	Delete element
+1566400150069	Rename type 'DefaultRoleAccountController'
+1566402132318	Rename local variable 'passwordEncoder'
+1566402142852	Rename field 'passwordEncoder'
+1566402147557	Rename field 'passwordPattern'
+1566406664518	Rename local variable 'targetClazz'
+1566457675444	Rename local variable 'writer'
+1566457772061	Rename local variable 'buffer'
+1566458527642	Delete element
+1566459212022	Rename type 'PanicConfiguration'
+1566459463965	Rename type 'MyErrorController'
+1566459561875	Delete element
+1566460041218	Rename method 'patch'
+1566460047701	Rename method 'dismantle'
+1566460697376	Rename local variable 'target'
+1566461500358	Move compilation unit
+1566461690007	Move compilation unit
+1566462867975	Rename method 'assign'
+1566462876825	Rename method 'assign'
+1566462884721	Rename method 'assign'
+1566462924572	Rename method 'transfer'
+1566462933340	Change method 'transfer1'
+1566462946180	Rename method 'transfer'
+1566462956084	Change method 'transfer2'
+1566462966000	Change method 'transfer2'
+1566462972990	Rename method 'transfer2'
+1566464196414	Delete element
+1566465050433	Rename type 'DefaultRole'
+1566465167936	Rename package 'acme.services.defaultRole'
+1566465255587	Copy compilation unit
+1566465284195	Rename type 'DefaultEmployerController'
+1566465290367	Rename type 'DefaultRoleUserAccountController'
+1566465295122	Rename type 'DefaultWorkerController'
+1566465313709	Move compilation units
+1566465318694	Rename type 'PublicJobController'
+1566465325949	Rename type 'PublicUserAccountController'
+1566465331664	Rename package 'acme.controllers._public'
+1566467587016	Rename type 'AnonymousJobController'
+1566467593280	Rename type 'AnonymousUserAccountController'
+1566467669812	Rename package 'acme.controllers.anonymous'
+1566467683691	Rename type 'Anonymous'
+1566467983215	Rename type 'PublicFooterController'
+1566468008235	Rename package 'acme.controllers.public_'
+1566468179375	Rename type 'Public'
+1566468194349	Rename type 'PublicAuthenticationController'
+1566468208420	Rename type 'PublicJobController'
+1566468217236	Rename type 'DefaultRoleJobService'
+1566468233786	Rename type 'PublicUserAccountController'
+1566468246667	Rename type 'DefaultRoleWorkerService'
+1566468255297	Rename type 'DefaultRoleUserAccountService'
+1566468262879	Rename type 'DefaultRoleEmployerService'
+1566468363684	Rename resource 'public'
+1566468483323	Move 3 resources to 'master'
+1566468828136	Move 2 resources to 'master'
+1566468861791	Delete elements
+1566468930265	Delete element
+1566469453812	Rename package 'acme.forms.framework'
+1566469471064	Move compilation units
+1566469493744	Rename type 'AnonymousAuthenticationController'
+1566469499894	Rename type 'AnonymousFooterController'
+1566469516683	Rename type 'MasterAuthenticationController'
+1566469521135	Rename type 'MasterFooterController'
+1566469634583	Delete element
+1566469697336	Delete element
+1566469702287	Rename type 'AuthenticationController'
+1566470122069	Rename type 'PanicController'
+1566471483213	Rename method 'refresh'
+1566471559682	Rename local variable 'result'
+1566472303965	Copy package
+1566472370655	Copy compilation units
+1566472381166	Delete elements
+1566472382591	Delete element
+1566472389189	Rename type 'AuthenticatedUserAccountService'
+1566473413867	Rename local variable 'method'
+1566473452486	Rename local variable 'command'
+1566474365929	Rename local variable 'isAnonymous'
+1566474463600	Rename type 'BasicCommandHelper'
+1566474478652	Rename type 'HttpMethodHelper'
+1566474520125	Move compilation units
+1566474539786	Rename local variable 'isauthenticated'
+1566474549644	Rename local variable 'isCreate'
+1566478510592	Rename local variable 'params'
+1566478545166	Rename local variable 'params'
+1566478678749	Rename local variable 'params'
+1566498601136	Move compilation unit
+1566501007067	Rename method 'bind'
+1566501116474	Rename local variable 'jobs'
+1566501483830	Delete element
+1566502833772	Rename field 'jobsRepository'
+1566503862400	Rename local variable 'i'
