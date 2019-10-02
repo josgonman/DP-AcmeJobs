@@ -1,5 +1,5 @@
 # README.txt
-# TASK 02 UPDATE README.TXT (Alejandro Fuentes Gómez)
+#
 # Copyright (c) 2019 Corchuelo.
 #
 # In keeping with the traditional purpose of furthering education and research, it is
