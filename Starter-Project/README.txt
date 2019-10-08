@@ -1,6 +1,6 @@
 # README.txt
 #
-# Copyright (c) 2019 Corchuelo.
+# Copyright (c) 2019 Rafael Corchuelo.
 #
 # In keeping with the traditional purpose of furthering education and research, it is
 # the policy of the copyright owner to permit non-commercial use and redistribution of
@@ -11,4 +11,4 @@
 This is the Starter-Project project, which is intended to be a core learning asset for the students
 who have enroled the Design and Testing subject of the Software Engineering curriculum of the 
 University of Sevilla.  This project provides a template our students can use to get their projects 
-up and running very quick
+up and running very quickly.
