@@ -19,7 +19,9 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
+		<!-- master.menu.anonymous.favourite-link -->
+			<acme:menu-suboption code="master.menu.anonymous.favourite-linkA" action="https://github.com/alefuegom"/>
+			
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
