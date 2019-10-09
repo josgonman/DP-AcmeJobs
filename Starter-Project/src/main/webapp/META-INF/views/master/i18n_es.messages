@@ -16,8 +16,8 @@ master.banner.background = #CE96D6
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme Stater!  Nunca antes ha sido tan sencillo desarrollar un \
-	proyecto y hacerlo funcionar.
+	Bienvenidos a Acme Jobs!  Nunca antes ha sido tan sencillo encontrar un \
+	buen trabajo y que sea bien pagado.
 
 # master.menu #################################################################
 
@@ -32,6 +32,8 @@ master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-linkA = Enlace al github de Alejandro Fuentes Gómez
 master.menu.anonymous.favourite-linkB = Enlace al link favorito de Pedro Padilla Molina
 master.menu.anonymous.favourite-linkC = Enlace al link favorito de Jose Manuel Gonzalez
+master.menu.anonymous.favourite-linkD = Enlace al link favorito de Miguel Ponce Melero
+
 
 # master.menu.administrator ###################################################
 
@@ -75,7 +77,7 @@ master.footer.label.spanish = Español
 master.company.title = La compañía
 master.company.text = \
 	Starter Project, Inc. es una compañía fictícia que proporciona un proyecto \
-	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
+	Este es un proyecto de un grupo de estudiantes que cursan \
 	en Ingeniería del Software de la Universidad de Sevilla.
 master.company.name = Starter Project, Inc.
 master.company.address = Calle, número, Ciudad, Estado, País
