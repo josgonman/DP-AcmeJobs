@@ -31,6 +31,7 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-linkA = Enlace al github de Alejandro Fuentes Gómez
 master.menu.anonymous.favourite-linkB = Enlace al link favorito de Pedro Padilla Molina
+master.menu.anonymous.favourite-linkC = Enlace al link favorito de Jose Manuel Gonzalez
 
 # master.menu.administrator ###################################################
 

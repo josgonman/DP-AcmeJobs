@@ -23,7 +23,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkA" action="https://github.com/alefuegom"/>
 		<!-- master.menu.anonymous.favourite-link Link Favorito Pedro-->
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkB" action="https://watch.nba.com"/>
-				
+		<!-- master.menu.anonymous.favourite-link Link Link Favorito Jose Manuel -->
+			<acme:menu-suboption code="master.menu.anonymous.favourite-linkC" action="https://es.stackoverflow.com/"/>	
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
