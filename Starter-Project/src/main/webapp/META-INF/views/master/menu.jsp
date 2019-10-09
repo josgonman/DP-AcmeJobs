@@ -19,9 +19,11 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-		<!-- master.menu.anonymous.favourite-link -->
+		<!-- master.menu.anonymous.favourite-link Link Favorito Alejandro-->
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkA" action="https://github.com/alefuegom"/>
-			
+		<!-- master.menu.anonymous.favourite-link Link Favorito Pedro-->
+			<acme:menu-suboption code="master.menu.anonymous.favourite-linkB" action="https://watch.nba.com"/>
+				
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
