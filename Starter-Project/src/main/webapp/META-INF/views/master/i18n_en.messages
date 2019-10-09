@@ -78,7 +78,7 @@ master.company.text = \
 	Acme Jobs, the easiest way to find a nice job. \
 	This is a project of a group of students that are studying \
 	Software Informatic Engineering in the University of Sevilla.
-master.company.name = Starter Project, Inc.
+master.company.name = Acme Jobs.
 master.company.address = Number Street, City, State, Country
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com
