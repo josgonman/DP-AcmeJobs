@@ -4,3 +4,5 @@ Acme Jobs
 ${Ansi.DEFAULT}
 Powered by Spring Boot ${spring-boot.version}
 Powered by Starter-Project 2.19
+
+Suerte!
