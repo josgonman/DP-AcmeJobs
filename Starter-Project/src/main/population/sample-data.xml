@@ -16,5 +16,25 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<!--  Shouts -->
+	
+	<bean id="shout01" class="acme.entities.shouts.Shout">
+		<property name="author" value="Jose Rodriguez"/>
+		<property name="text" value="I'm sad!"/>
+		<property name="moment" value="2019/09/09 10:00"/>
+	</bean>
 
+	<bean id="shout02" class="acme.entities.shouts.Shout">
+		<property name="author" value="Javi García"/>
+		<property name="text" value="I'm studying!"/>
+		<property name="moment" value="2019/08/09 15:55"/>
+	</bean>
+	
+	<bean id="shout03" class="acme.entities.shouts.Shout">
+		<property name="author" value="Migue Gomez"/>
+		<property name="text" value="I'm playing chess"/>
+		<property name="moment" value="2019/09/07 00:00"/>
+	</bean>
+	
 </beans>
