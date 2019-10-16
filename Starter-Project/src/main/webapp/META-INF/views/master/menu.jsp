@@ -26,7 +26,14 @@
 		<!-- master.menu.anonymous.favourite-link Link Link Favorito Jose Manuel -->
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkC" action="https://es.stackoverflow.com/"/>	
 		<!-- master.menu.anonymous.favourite-link Link Link Favorito Miguel -->
-			<acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://www.informatica.us.es/"/>	
+			<acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://www.informatica.us.es/"/>
+			
+			<hr style="color: white; background-color: white;">
+		
+		<!-- master.menu.anonymous.listShouts Listar Gritos -->
+			<acme:menu-suboption code="master.menu.anonymous.listShouts" action="/anonymous/shout/list"/>
+		<!-- master.menu.anonymous.createShouts Crear un grito -->
+			<acme:menu-suboption code="master.menu.anonymous.createShouts" action="/anonymous/shout/create"/>				
 	</acme:menu-option>
 		
 

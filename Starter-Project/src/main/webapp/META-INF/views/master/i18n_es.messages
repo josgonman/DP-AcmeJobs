@@ -29,10 +29,12 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-linkA = Enlace al github de Alejandro Fuentes Gómez
+master.menu.anonymous.favourite-linkA = Enlace al link favorito de Alejandro Fuentes Gómez
 master.menu.anonymous.favourite-linkB = Enlace al link favorito de Pedro Padilla Molina
 master.menu.anonymous.favourite-linkC = Enlace al link favorito de Jose Manuel Gonzalez
 master.menu.anonymous.favourite-linkD = Enlace al link favorito de Miguel Ponce Melero
+master.menu.anonymous.listShouts = Listar gritos
+master.menu.anonymous.createShouts = Gritos!
 
 
 # master.menu.administrator ###################################################
