@@ -299,12 +299,17 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>238</x>
+      <x>196</x>
       <y>252</y>
-      <w>189</w>
+      <w>231</w>
       <h>98</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;</panel_attributes>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+shout
+--
++ moment: Date {Temporal{TIMESTAMP}, Past}
++ author: String {NotBlank}
++ test: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
