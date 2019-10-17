@@ -2,7 +2,7 @@ anonymous.shout.form.label.player = Player:
 anonymous.shout.form.label.team = Team:
 anonymous.shout.form.label.teamLastSeason = Team Last Season:
 anonymous.shout.form.label.quote = Favourite Quote:
-anonymous.shout.form.button.create = Shout
+anonymous.shout.form.button.create = Create
 anonymous.shout.form.button.return = Return
 
 anonymous.shout.list.label.player = Player

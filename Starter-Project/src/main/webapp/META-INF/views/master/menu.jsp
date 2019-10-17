@@ -30,10 +30,13 @@
 			
 			<hr style="color: white; background-color: white;">
 		
-		<!-- master.menu.anonymous.listShouts Listar Gritos -->
-			<acme:menu-suboption code="master.menu.anonymous.listShouts" action="/anonymous/shout/list"/>
-		<!-- master.menu.anonymous.createShouts Crear un grito -->
-			<acme:menu-suboption code="master.menu.anonymous.createShouts" action="/anonymous/shout/create"/>				
+			<!-- Pedro -->
+			
+			<!-- master.menu.anonymous.listShouts Listar Gritos -->
+				<acme:menu-suboption code="master.menu.anonymous.listShoutsPedro" action="/anonymous/shout/list"/>
+			<!-- master.menu.anonymous.createShouts Crear un grito -->
+				<acme:menu-suboption code="master.menu.anonymous.createShoutsPedro" action="/anonymous/shout/create"/>	
+								
 	</acme:menu-option>
 		
 

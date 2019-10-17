@@ -33,8 +33,8 @@ master.menu.anonymous.favourite-linkA = Enlace al link favorito de Alejandro Fue
 master.menu.anonymous.favourite-linkB = Enlace al link favorito de Pedro Padilla Molina
 master.menu.anonymous.favourite-linkC = Enlace al link favorito de Jose Manuel Gonzalez
 master.menu.anonymous.favourite-linkD = Enlace al link favorito de Miguel Ponce Melero
-master.menu.anonymous.listShouts = Listar gritos
-master.menu.anonymous.createShouts = Gritos!
+master.menu.anonymous.listShoutsPedro = (Pedro Boletin) Listar Jugadores NBA
+master.menu.anonymous.createShoutsPedro = (Pedro Boletin) Crear Jugadores NBA
 
 
 # master.menu.administrator ###################################################

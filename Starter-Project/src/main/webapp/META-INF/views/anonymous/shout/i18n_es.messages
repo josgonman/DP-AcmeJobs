@@ -2,7 +2,7 @@ anonymous.shout.form.label.player = Jugador:
 anonymous.shout.form.label.team = Equipo:
 anonymous.shout.form.label.teamLastSeason = Equipo de la Temporada Pasada:
 anonymous.shout.form.label.quote = Frase Favorita:
-anonymous.shout.form.button.create = Gritar
+anonymous.shout.form.button.create = Crear
 anonymous.shout.form.button.return = Volver
 
 anonymous.shout.list.label.player = Jugador
