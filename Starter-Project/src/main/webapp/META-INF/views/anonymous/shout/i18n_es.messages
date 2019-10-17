@@ -1,8 +1,11 @@
-anonymous.shout.form.label.author = Autor:
-anonymous.shout.form.label.text = Texto:
+anonymous.shout.form.label.player = Jugador:
+anonymous.shout.form.label.team = Equipo:
+anonymous.shout.form.label.teamLastSeason = Equipo de la Temporada Pasada:
+anonymous.shout.form.label.quote = Frase Favorita:
 anonymous.shout.form.button.create = Gritar
 anonymous.shout.form.button.return = Volver
 
-anonymous.shout.list.label.moment = Momento
-anonymous.shout.list.label.author= Autor
-anonymous.shout.list.label.text = Texto
+anonymous.shout.list.label.player = Jugador
+anonymous.shout.list.label.team = Equipo
+anonymous.shout.list.label.teamLastSeason = Equipo de la Temporada Pasada
+anonymous.shout.list.label.quote = Frase Favorita:

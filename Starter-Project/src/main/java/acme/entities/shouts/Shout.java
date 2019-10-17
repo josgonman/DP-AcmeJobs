@@ -1,13 +1,8 @@
 
 package acme.entities.shouts;
 
-import java.util.Date;
-
 import javax.persistence.Entity;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Past;
 
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
@@ -21,13 +16,15 @@ public class Shout extends DomainEntity {
 	private static final long	serialVersionUID	= 1L;
 
 	@NotBlank
-	private String				author;
+	private String				player;
 
 	@NotBlank
-	private String				text;
+	private String				team;
 
-	@Temporal(TemporalType.TIMESTAMP)
-	@Past
-	private Date				moment;
+	@NotBlank
+	private String				teamLastSeason;
+
+	@NotBlank
+	private String				quote;
 
 }

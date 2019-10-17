@@ -1,8 +1,6 @@
 
 package acme.features.anonymous.shout;
 
-import java.util.Date;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -36,14 +34,12 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert request != null;
 
 		Shout result;
-		Date moment;
-
-		moment = new Date(System.currentTimeMillis() - 1);
 
 		result = new Shout();
-		result.setAuthor("Jose Rodriguez");
-		result.setText("Texto de ejemplo!");
-		result.setMoment(moment);
+		result.setPlayer("Michael Jordan");
+		result.setTeam("Washington Wizards");
+		result.setTeamLastSeason("Miami Heat");
+		result.setQuote("Talent wins games, but teamwork and intelligence wins championships");
 
 		return result;
 	}
@@ -54,7 +50,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "author", "text");
+		request.unbind(entity, model, "player", "team", "teamLastSeason", "quote");
 	}
 
 	@Override
@@ -66,20 +62,18 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		request.bind(entity, errors);
 	}
 
+	@Override
 	public void validate(final Request<Shout> request, final Shout entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
 	}
 
+	@Override
 	public void create(final Request<Shout> request, final Shout entity) {
 		assert request != null;
 		assert entity != null;
 
-		Date moment;
-
-		moment = new Date(System.currentTimeMillis() - 1);
-		entity.setMoment(moment);
 		this.repository.save(entity);
 	}
 }

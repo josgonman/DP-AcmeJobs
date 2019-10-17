@@ -4,8 +4,10 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textbox code="anonymous.shout.form.label.author" path="author"/>
-	<acme:form-textarea code="anonymous.shout.form.label.text" path="text"/>
+	<acme:form-textbox code="anonymous.shout.form.label.player" path="player"/>
+	<acme:form-textbox code="anonymous.shout.form.label.team" path="team"/>
+	<acme:form-textbox code="anonymous.shout.form.label.teamLastSeason" path="teamLastSeason"/>
+	<acme:form-textarea code="anonymous.shout.form.label.quote" path="quote"/>
 	
 	<acme:form-submit code="anonymous.shout.form.button.create" action="/anonymous/shout/create"/>
 	<acme:form-return code="anonymous.shout.form.button.return"/>

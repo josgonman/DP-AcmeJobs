@@ -41,9 +41,10 @@
     create table `shout` (
        `id` integer not null,
         `version` integer not null,
-        `author` varchar(255),
-        `moment` datetime(6),
-        `text` varchar(255),
+        `player` varchar(255),
+        `quote` varchar(255),
+        `team` varchar(255),
+        `team_last_season` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
