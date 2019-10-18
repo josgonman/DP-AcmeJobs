@@ -43,8 +43,11 @@ master.menu.anonymous.listPlayersPedro = (Pedro's Bulletin) List NBA Players
 master.menu.anonymous.createPlayersPedro = (Pedro's Bulletin) Create NBA Players
 >>>>>>> master
 
-master.menu.anonymous.shoutlist = List
-master.menu.anonymous.shout = Create
+master.menu.anonymous.shoutlist = Alejandro Shout's List
+master.menu.anonymous.shout = Alejandro Shout's Create
+master.menu.anonymous.talklist = Alejandro: List talks
+master.menu.anonymous.talk = Alejandro: Create a talk
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

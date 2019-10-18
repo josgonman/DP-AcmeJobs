@@ -48,6 +48,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `talk` (
+       `id` integer not null,
+        `version` integer not null,
+        `age` integer,
+        `employer` varchar(255),
+        `moment` datetime(6),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `user_account` (
        `id` integer not null,
         `version` integer not null,
