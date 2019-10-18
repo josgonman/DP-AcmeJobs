@@ -1,0 +1,11 @@
+anonymous.player.form.label.player = Player:
+anonymous.player.form.label.team = Team:
+anonymous.player.form.label.teamLastSeason = Team Last Season:
+anonymous.player.form.label.quote = Favourite Quote:
+anonymous.player.form.button.create = Create
+anonymous.player.form.button.return = Return
+
+anonymous.player.list.label.player = Player
+anonymous.player.list.label.team = Team
+anonymous.player.list.label.teamLastSeason = Team Last Season
+anonymous.player.list.label.quote = Favourite Quote:
