@@ -30,6 +30,9 @@
 			
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.shoutlist" action="/anonymous/shout/list"/>
+			
+			<acme:menu-suboption code="master.menu.anonymous.talk" action="/anonymous/talk/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.talklist" action="/anonymous/talk/list"/>
 	</acme:menu-option>
 		
 

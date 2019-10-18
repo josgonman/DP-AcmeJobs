@@ -36,6 +36,8 @@ master.menu.anonymous.favourite-linkD = Enlace al link favorito de Miguel Ponce 
 
 master.menu.anonymous.shoutlist = Mostrar lista
 master.menu.anonymous.shout = Crear 
+master.menu.anonymous.talklist = Alejandro: Listar conversación
+master.menu.anonymous.talk = Alejandro: Crear conversación
 
 
 # master.menu.administrator ###################################################

@@ -36,6 +36,24 @@
 		<property name ="text" value="Just turning 20!"/>
 		<property name ="moment" value="2019/09/07 00:00"/>
 	</bean>
+	
+		<bean id ="talk01" class="acme.entities.talk.Talk">
+		<property name ="employer" value="Leslie Jhonson"/>
+		<property name ="age" value="23" />
+		<property name ="moment" value="2019/09/09 10:00"/>
+	</bean>
+	
+	<bean id ="talk02" class="acme.entities.talk.Talk">
+			<property name ="employer" value="Pedro Picapiedra"/>
+		<property name ="age" value="200"/>
+		<property name ="moment" value="2019/09/09 01:00"/>
+	</bean>
+	
+	<bean id ="talk03" class="acme.entities.talk.Talk">
+			<property name ="employer" value="Jack Sparrow"/>
+		<property name ="age" value="43"/>
+		<property name ="moment" value="2019/07/09 10:00"/>
+	</bean>
 </beans>
 
 	
