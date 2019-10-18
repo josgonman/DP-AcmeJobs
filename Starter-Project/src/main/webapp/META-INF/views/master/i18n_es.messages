@@ -33,24 +33,20 @@ master.menu.anonymous.favourite-linkA = Enlace al link favorito de Alejandro Fue
 master.menu.anonymous.favourite-linkB = Enlace al link favorito de Pedro Padilla Molina
 master.menu.anonymous.favourite-linkC = Enlace al link favorito de Jose Manuel Gonzalez
 master.menu.anonymous.favourite-linkD = Enlace al link favorito de Miguel Ponce Melero
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-master.menu.anonymous.shoutlist = Mostrar lista
-master.menu.anonymous.shout = Crear 
-master.menu.anonymous.talklist = Alejandro: Listar conversación
-master.menu.anonymous.talk = Alejandro: Crear conversación
+ 
+master.menu.anonymous.talklist = Fuentes Boletín: Lista Conversaciones
+master.menu.anonymous.talk = Fuentes: Boletín: Crear conversación
 
-=======
 master.menu.anonymous.shout = ¡Gritar!
-master.menu.anonymous.shoutList = Lista de Gritos
->>>>>>> JoseManuel
-=======
-master.menu.anonymous.listShouts = Listar gritos
-master.menu.anonymous.createShouts = Gritos!
-master.menu.anonymous.listPlayersPedro = (Pedro Boletin) Listar Jugadores NBA
-master.menu.anonymous.createPlayersPedro = (Pedro Boletin) Crear Jugadores NBA
->>>>>>> master
+master.menu.anonymous.shoutlist = Lista de Gritos
+
+master.menu.anonymous.listPlayersPedro = Padilla Boletín: Lista Jugadores NBA
+master.menu.anonymous.createPlayersPedro = Padilla Boletín: Crear Jugadores NBA
+
+master.menu.anonymous.offer = Gonzalez Boletín: Crear Oferta
+master.menu.anonymous.offerList = Gonzalez Boletín: Lista Ofertas
+
 
 # master.menu.administrator ###################################################
 

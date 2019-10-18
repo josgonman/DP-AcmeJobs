@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 package acme.features.anonymous.shout;
 
@@ -17,28 +15,3 @@ public interface AnonymousShoutRepository extends AbstractRepository {
 	@Query("select s from Shout s")
 	Collection<Shout> findMany();
 }
-=======
-=======
->>>>>>> master
-
-package acme.features.anonymous.shout;
-
-import java.util.Collection;
-
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.stereotype.Repository;
-
-import acme.entities.shouts.Shout;
-import acme.framework.repositories.AbstractRepository;
-
-@Repository
-public interface AnonymousShoutRepository extends AbstractRepository {
-
-	@Query("select s from Shout s")
-	Collection<Shout> findMany();
-
-}
-<<<<<<< HEAD
->>>>>>> JoseManuel
-=======
->>>>>>> master

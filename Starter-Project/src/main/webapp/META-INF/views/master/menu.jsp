@@ -26,18 +26,31 @@
 		<!-- master.menu.anonymous.favourite-link Link Link Favorito Jose Manuel -->
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkC" action="https://es.stackoverflow.com/"/>	
 		<!-- master.menu.anonymous.favourite-link Link Link Favorito Miguel -->
-<<<<<<< HEAD
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://www.informatica.us.es/"/>	
-<<<<<<< HEAD
-			
+			<acme:menu-separator/>
+	
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.shoutlist" action="/anonymous/shout/list"/>
+			
+			<acme:menu-separator/>
+			
 			<acme:menu-suboption code="master.menu.anonymous.talk" action="/anonymous/talk/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.talklist" action="/anonymous/talk/list"/>
+			
+			<acme:menu-separator/>
+			
+			<!-- master.menu.anonymous.createPlayers Crear un Jugador -->
+			<acme:menu-suboption code="master.menu.anonymous.createPlayersPedro" action="/anonymous/player/create"/>
 		<!-- master.menu.anonymous.listPlayers Listar Jugadores -->
 			<acme:menu-suboption code="master.menu.anonymous.listPlayersPedro" action="/anonymous/player/list"/>
-		<!-- master.menu.anonymous.createPlayers Crear un Jugador -->
-			<acme:menu-suboption code="master.menu.anonymous.createPlayersPedro" action="/anonymous/player/create"/>
+			
+			<acme:menu-separator/>
+			
+			<acme:menu-suboption code="master.menu.anonymous.offer" action="/anonymous/offer/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.offerList" action="/anonymous/offer/list"/>
+			
+			
+		
 	</acme:menu-option>
 		
 

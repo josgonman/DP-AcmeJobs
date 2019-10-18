@@ -1,5 +1,5 @@
 
-package acme.entities.shouts;
+package acme.entities.offers;
 
 import java.util.Date;
 
@@ -16,7 +16,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Shout extends DomainEntity {
+public class Offer extends DomainEntity {
 
 	// Serialisation identifier -------------------------------
 
@@ -25,13 +25,15 @@ public class Shout extends DomainEntity {
 	//Attributes -----------------------------------------
 
 	@NotBlank
-	private String				author;
+	private String				company;
 
 	@NotBlank
-	private String				text;
+	private String				job;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
 	private Date				moment;
+
+	private double				salary;
 
 }
