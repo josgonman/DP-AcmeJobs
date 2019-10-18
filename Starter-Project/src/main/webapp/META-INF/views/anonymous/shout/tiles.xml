@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version ="1.0" encoding="utf-8"?>
 
 <!DOCTYPE tiles-definitions PUBLIC 
@@ -14,4 +15,23 @@
 		<put-attribute name="body" type="template" value="../anonymous/shout/form.jsp"/>
 	</definition>
 
+=======
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC 
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+	
+	<definition name= "anonymous/shout/form" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/shout/form.jsp"/>
+	</definition>
+	
+	<definition name= "anonymous/shout/list" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/shout/list.jsp"/>
+	</definition>
+	
+>>>>>>> JoseManuel
 </tiles-definitions>
