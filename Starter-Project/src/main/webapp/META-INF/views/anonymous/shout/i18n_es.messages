@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 anonymous.shout.list.label.moment = Momento
 
 anonymous.shout.list.label.author = Autor
@@ -24,3 +25,13 @@ anonymous.shout.list.label.moment = Momento
 anonymous.shout.list.label.author = Autor
 anonymous.shout.list.label.text = Texto
 >>>>>>> JoseManuel
+=======
+anonymous.shout.form.label.author = Autor:
+anonymous.shout.form.label.text = Texto:
+anonymous.shout.form.button.create = Gritar
+anonymous.shout.form.button.return = Volver
+
+anonymous.shout.list.label.moment = Momento
+anonymous.shout.list.label.author= Autor
+anonymous.shout.list.label.text = Texto
+>>>>>>> master

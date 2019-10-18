@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 
 package acme.entities.shouts;
 
@@ -19,6 +22,7 @@ import lombok.Setter;
 @Setter
 public class Shout extends DomainEntity {
 
+<<<<<<< HEAD
 	// Serialisation identifier -------------------------------
 
 	private static final long	serialVersionUID	= 1L;
@@ -63,6 +67,10 @@ public class Shout extends DomainEntity {
 
 	//Atributos
 
+=======
+	private static final long	serialVersionUID	= 1L;
+
+>>>>>>> master
 	@NotBlank
 	private String				author;
 
@@ -74,4 +82,7 @@ public class Shout extends DomainEntity {
 	private Date				moment;
 
 }
+<<<<<<< HEAD
 >>>>>>> JoseManuel
+=======
+>>>>>>> master

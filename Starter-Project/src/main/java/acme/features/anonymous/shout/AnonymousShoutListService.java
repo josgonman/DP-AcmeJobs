@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 
 package acme.features.anonymous.shout;
 
@@ -16,6 +19,7 @@ import acme.framework.services.AbstractListService;
 @Service
 public class AnonymousShoutListService implements AbstractListService<Anonymous, Shout> {
 
+<<<<<<< HEAD
 	// Internal state -------------------------------------------
 
 	@Autowired
@@ -26,12 +30,27 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 	@Override
 	public boolean authorise(final Request<Shout> request) {
 		assert request != null;
+=======
+	// Internal State ----------------------------------------------
+
+	@Autowired
+	AnonymousShoutRepository repository;
+
+
+	// AbstractListService<Administrator, Shout> interface ---------
+
+	@Override
+	public boolean authorise(final Request<Shout> request) {
+		assert request != null;
+
+>>>>>>> master
 		return true;
 	}
 
 	@Override
 	public Collection<Shout> findMany(final Request<Shout> request) {
 		assert request != null;
+<<<<<<< HEAD
 		Collection<Shout> result;
 		result = this.repository.findMany();
 		return result;
@@ -83,6 +102,13 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 		assert request != null;
 		Collection<Shout> result;
 		result = this.rep.findMany();
+=======
+
+		Collection<Shout> result;
+
+		result = this.repository.findMany();
+
+>>>>>>> master
 		return result;
 	}
 
@@ -93,8 +119,13 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 		assert model != null;
 
 		request.unbind(entity, model, "author", "text", "moment");
+<<<<<<< HEAD
 
 	}
 
 }
 >>>>>>> JoseManuel
+=======
+	}
+}
+>>>>>>> master

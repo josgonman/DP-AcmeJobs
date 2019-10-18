@@ -26,6 +26,7 @@
 		<!-- master.menu.anonymous.favourite-link Link Link Favorito Jose Manuel -->
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkC" action="https://es.stackoverflow.com/"/>	
 		<!-- master.menu.anonymous.favourite-link Link Link Favorito Miguel -->
+<<<<<<< HEAD
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://www.informatica.us.es/"/>	
 <<<<<<< HEAD
 			
@@ -39,6 +40,22 @@
 			<acme:menu-suboption code="master.menu.anonymous.shoutList" action="/anonymous/shout/list"/>	
 		
 >>>>>>> JoseManuel
+=======
+			<acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://www.informatica.us.es/"/>
+			
+			<hr style="color: white; background-color: white;">
+		
+		<!-- master.menu.anonymous.listShouts Listar Gritos -->
+			<acme:menu-suboption code="master.menu.anonymous.listShouts" action="/anonymous/shout/list"/>
+		<!-- master.menu.anonymous.createShouts Crear un grito -->
+			<acme:menu-suboption code="master.menu.anonymous.createShouts" action="/anonymous/shout/create"/>
+			
+		<!-- master.menu.anonymous.listPlayers Listar Jugadores -->
+			<acme:menu-suboption code="master.menu.anonymous.listPlayersPedro" action="/anonymous/player/list"/>
+		<!-- master.menu.anonymous.createPlayers Crear un Jugador -->
+			<acme:menu-suboption code="master.menu.anonymous.createPlayersPedro" action="/anonymous/player/create"/>
+							
+>>>>>>> master
 	</acme:menu-option>
 		
 

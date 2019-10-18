@@ -317,14 +317,21 @@ Shout
 =======
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>7</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>525</x>
       <y>168</y>
       <w>168</w>
       <h>42</h>
+=======
+      <x>444</x>
+      <y>144</y>
+      <w>144</w>
+      <h>36</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 UserRole
@@ -335,10 +342,17 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< HEAD
       <x>546</x>
       <y>203</y>
       <w>70</w>
       <h>77</h>
+=======
+      <x>462</x>
+      <y>174</y>
+      <w>60</w>
+      <h>66</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>80.0;10.0;10.0;90.0</additional_attributes>
@@ -346,10 +360,17 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>175</x>
       <y>98</y>
       <w>154</w>
       <h>84</h>
+=======
+      <x>144</x>
+      <y>84</y>
+      <w>132</w>
+      <h>72</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Datatype&gt;&gt;
 UserIdentity
@@ -366,10 +387,17 @@ bg=orange
   <element>
     <id>UMLNote</id>
     <coordinates>
+<<<<<<< HEAD
       <x>175</x>
       <y>35</y>
       <w>168</w>
       <h>42</h>
+=======
+      <x>144</x>
+      <y>30</y>
+      <w>144</w>
+      <h>36</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>The full name catenates the 
 surname, a comma, and the name.
@@ -379,10 +407,17 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< HEAD
       <x>245</x>
       <y>70</y>
       <w>21</w>
       <h>42</h>
+=======
+      <x>204</x>
+      <y>60</y>
+      <w>18</w>
+      <h>36</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>lt=..
 </panel_attributes>
@@ -391,10 +426,17 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< HEAD
       <x>595</x>
       <y>203</y>
       <w>70</w>
       <h>77</h>
+=======
+      <x>504</x>
+      <y>174</y>
+      <w>60</w>
+      <h>66</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;90.0</additional_attributes>
@@ -402,10 +444,17 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>770</x>
       <y>175</y>
       <w>70</w>
       <h>42</h>
+=======
+      <x>654</x>
+      <y>150</y>
+      <w>60</w>
+      <h>36</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Administrator
@@ -417,10 +466,17 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>770</x>
       <y>119</y>
       <w>70</w>
       <h>42</h>
+=======
+      <x>654</x>
+      <y>102</y>
+      <w>60</w>
+      <h>36</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Anonymous
@@ -432,10 +488,17 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>770</x>
       <y>224</y>
       <w>70</w>
       <h>42</h>
+=======
+      <x>654</x>
+      <y>192</y>
+      <w>60</w>
+      <h>36</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Authenticated
@@ -447,10 +510,17 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< HEAD
       <x>686</x>
       <y>147</y>
       <w>98</w>
       <h>56</h>
+=======
+      <x>582</x>
+      <y>126</y>
+      <w>84</w>
+      <h>48</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;120.0;10.0</additional_attributes>
@@ -458,10 +528,17 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< HEAD
       <x>686</x>
       <y>182</y>
       <w>98</w>
       <h>21</h>
+=======
+      <x>582</x>
+      <y>156</y>
+      <w>84</w>
+      <h>18</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
@@ -469,10 +546,17 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< HEAD
       <x>686</x>
       <y>182</y>
       <w>98</w>
       <h>63</h>
+=======
+      <x>582</x>
+      <y>156</y>
+      <w>84</w>
+      <h>54</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;120.0;70.0</additional_attributes>
@@ -480,10 +564,17 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>175</x>
       <y>196</y>
       <w>154</w>
       <h>49</h>
+=======
+      <x>144</x>
+      <y>168</y>
+      <w>132</w>
+      <h>42</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Enum&gt;&gt;
 CustomCommand
@@ -496,10 +587,17 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>448</x>
       <y>266</y>
       <w>140</w>
       <h>63</h>
+=======
+      <x>378</x>
+      <y>228</y>
+      <w>120</w>
+      <h>54</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Provider
@@ -511,10 +609,17 @@ Provider
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>609</x>
       <y>266</y>
       <w>147</w>
       <h>63</h>
+=======
+      <x>516</x>
+      <y>228</y>
+      <w>126</w>
+      <h>54</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Consumer
@@ -526,10 +631,17 @@ Consumer
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>7</x>
       <y>98</y>
       <w>154</w>
       <h>56</h>
+=======
+      <x>0</x>
+      <y>84</y>
+      <w>132</w>
+      <h>48</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Datatype&gt;&gt;
 Money
@@ -543,10 +655,17 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>7</x>
       <y>168</y>
       <w>154</w>
       <h>91</h>
+=======
+      <x>0</x>
+      <y>144</y>
+      <w>132</w>
+      <h>78</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Enum&gt;&gt;
 BasicCommand
@@ -563,10 +682,17 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>7</x>
       <y>273</y>
       <w>154</w>
       <h>63</h>
+=======
+      <x>0</x>
+      <y>234</y>
+      <w>132</w>
+      <h>54</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Enum&gt;&gt;
 HttpMethod
@@ -580,10 +706,14 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>483</x>
+=======
+      <x>408</x>
+>>>>>>> master
       <y>0</y>
-      <w>238</w>
-      <h>91</h>
+      <w>204</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 UserAccount
@@ -602,10 +732,17 @@ UserAccount
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< HEAD
       <x>602</x>
       <y>84</y>
       <w>49</w>
       <h>98</h>
+=======
+      <x>510</x>
+      <y>72</y>
+      <w>42</w>
+      <h>84</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>lt=&lt;-&gt;
 m1=1
@@ -616,18 +753,31 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< HEAD
       <x>189</x>
       <y>273</y>
       <w>231</w>
       <h>98</h>
+=======
+      <x>162</x>
+      <y>234</y>
+      <w>192</w>
+      <h>66</h>
+>>>>>>> master
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Shout
 --
+<<<<<<< HEAD
 + moment : Date(Temporal(TIMESTAMP), Past)
 + author: String (NotBlank)
 + text: String (NotBlank)
 </panel_attributes>
+=======
++ moment: Date {Temporal(TIMESTAMP), Past}
++ author: String {NotBlank}
++ text: String {NotBlank}</panel_attributes>
+>>>>>>> master
     <additional_attributes/>
   </element>
 </diagram>

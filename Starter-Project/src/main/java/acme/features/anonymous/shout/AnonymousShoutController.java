@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 
 package acme.features.anonymous.shout;
 
@@ -34,6 +37,7 @@ public class AnonymousShoutController extends AbstractController<Anonymous, Shou
 		super.addBasicCommand(BasicCommand.CREATE, this.createService);
 	}
 }
+<<<<<<< HEAD
 =======
 
 package acme.features.anonymous.shout;
@@ -71,3 +75,5 @@ public class AnonymousShoutController extends AbstractController<Anonymous, Shou
 	}
 }
 >>>>>>> JoseManuel
+=======
+>>>>>>> master

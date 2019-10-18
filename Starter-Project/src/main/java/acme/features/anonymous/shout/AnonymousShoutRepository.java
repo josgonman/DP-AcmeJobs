@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 package acme.features.anonymous.shout;
 
@@ -17,6 +18,8 @@ public interface AnonymousShoutRepository extends AbstractRepository {
 	Collection<Shout> findMany();
 }
 =======
+=======
+>>>>>>> master
 
 package acme.features.anonymous.shout;
 
@@ -35,4 +38,7 @@ public interface AnonymousShoutRepository extends AbstractRepository {
 	Collection<Shout> findMany();
 
 }
+<<<<<<< HEAD
 >>>>>>> JoseManuel
+=======
+>>>>>>> master

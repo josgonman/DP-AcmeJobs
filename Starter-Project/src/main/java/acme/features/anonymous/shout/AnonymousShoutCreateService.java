@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 
 package acme.features.anonymous.shout;
 
@@ -17,6 +20,7 @@ import acme.framework.services.AbstractCreateService;
 @Service
 public class AnonymousShoutCreateService implements AbstractCreateService<Anonymous, Shout> {
 
+<<<<<<< HEAD
 	// Internal state -------------------------------------------
 
 	@Autowired
@@ -47,6 +51,21 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 
 		request.unbind(entity, model, "author", "text");
 
+=======
+	// Internal State ----------------------------------------------
+
+	@Autowired
+	AnonymousShoutRepository repository;
+
+
+	// AbstractListService<Administrator, Shout> interface ---------
+
+	@Override
+	public boolean authorise(final Request<Shout> request) {
+		assert request != null;
+
+		return true;
+>>>>>>> master
 	}
 
 	@Override
@@ -57,6 +76,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		Date moment;
 
 		moment = new Date(System.currentTimeMillis() - 1);
+<<<<<<< HEAD
 		result = new Shout();
 		result.setAuthor("John Doe");
 		result.setText("Loren ipsum!");
@@ -114,6 +134,24 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert request != null;
 
 		return true;
+=======
+
+		result = new Shout();
+		result.setAuthor("Jose Rodriguez");
+		result.setText("Texto de ejemplo!");
+		result.setMoment(moment);
+
+		return result;
+	}
+
+	@Override
+	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
+		assert request != null;
+		assert entity != null;
+		assert model != null;
+
+		request.unbind(entity, model, "author", "text");
+>>>>>>> master
 	}
 
 	@Override
@@ -123,6 +161,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert errors != null;
 
 		request.bind(entity, errors);
+<<<<<<< HEAD
 
 	}
 
@@ -153,14 +192,23 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	}
 
 	@Override
+=======
+	}
+
+>>>>>>> master
 	public void validate(final Request<Shout> request, final Shout entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+<<<<<<< HEAD
 
 	}
 
 	@Override
+=======
+	}
+
+>>>>>>> master
 	public void create(final Request<Shout> request, final Shout entity) {
 		assert request != null;
 		assert entity != null;
@@ -171,6 +219,10 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		entity.setMoment(moment);
 		this.repository.save(entity);
 	}
+<<<<<<< HEAD
 
 }
 >>>>>>> JoseManuel
+=======
+}
+>>>>>>> master
