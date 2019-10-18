@@ -1,10 +1,10 @@
 
-package acme.features.anonymous.shout;
+package acme.features.anonymous.player;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.shouts.Shout;
+import acme.entities.players.Player;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -12,30 +12,30 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousShoutCreateService implements AbstractCreateService<Anonymous, Shout> {
+public class AnonymousPlayerCreateService implements AbstractCreateService<Anonymous, Player> {
 
 	// Internal State ----------------------------------------------
 
 	@Autowired
-	AnonymousShoutRepository repository;
+	AnonymousPlayerRepository repository;
 
 
 	// AbstractListService<Administrator, Shout> interface ---------
 
 	@Override
-	public boolean authorise(final Request<Shout> request) {
+	public boolean authorise(final Request<Player> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public Shout instantiate(final Request<Shout> request) {
+	public Player instantiate(final Request<Player> request) {
 		assert request != null;
 
-		Shout result;
+		Player result;
 
-		result = new Shout();
+		result = new Player();
 		result.setPlayer("Michael Jordan");
 		result.setTeam("Washington Wizards");
 		result.setTeamLastSeason("Miami Heat");
@@ -45,7 +45,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	}
 
 	@Override
-	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
+	public void unbind(final Request<Player> request, final Player entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -54,7 +54,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	}
 
 	@Override
-	public void bind(final Request<Shout> request, final Shout entity, final Errors errors) {
+	public void bind(final Request<Player> request, final Player entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -63,14 +63,14 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	}
 
 	@Override
-	public void validate(final Request<Shout> request, final Shout entity, final Errors errors) {
+	public void validate(final Request<Player> request, final Player entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
 	}
 
 	@Override
-	public void create(final Request<Shout> request, final Shout entity) {
+	public void create(final Request<Player> request, final Player entity) {
 		assert request != null;
 		assert entity != null;
 

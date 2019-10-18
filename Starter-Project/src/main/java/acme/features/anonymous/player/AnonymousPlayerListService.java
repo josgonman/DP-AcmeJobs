@@ -1,40 +1,40 @@
 
-package acme.features.anonymous.shout;
+package acme.features.anonymous.player;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.shouts.Shout;
+import acme.entities.players.Player;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousShoutListService implements AbstractListService<Anonymous, Shout> {
+public class AnonymousPlayerListService implements AbstractListService<Anonymous, Player> {
 
 	// Internal State ----------------------------------------------
 
 	@Autowired
-	AnonymousShoutRepository repository;
+	AnonymousPlayerRepository repository;
 
 
 	// AbstractListService<Administrator, Shout> interface ---------
 
 	@Override
-	public boolean authorise(final Request<Shout> request) {
+	public boolean authorise(final Request<Player> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public Collection<Shout> findMany(final Request<Shout> request) {
+	public Collection<Player> findMany(final Request<Player> request) {
 		assert request != null;
 
-		Collection<Shout> result;
+		Collection<Player> result;
 
 		result = this.repository.findMany();
 
@@ -42,7 +42,7 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 	}
 
 	@Override
-	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
+	public void unbind(final Request<Player> request, final Player entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;

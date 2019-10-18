@@ -19,21 +19,21 @@
 	
 	<!--  Shouts -->
 	
-	<bean id="shout01" class="acme.entities.shouts.Shout">
+	<bean id="player01" class="acme.entities.players.Player">
 		<property name="player" value="Stephen Curry"/>
 		<property name="team" value="Golden State Warriors"/>
 		<property name="teamLastSeason" value="Golden State Warriors"/>
 		<property name="quote" value="Success is not an accident, success is actually a choice"/>
 	</bean>
 
-	<bean id="shout02" class="acme.entities.shouts.Shout">
+	<bean id="player02" class="acme.entities.players.Player">
 		<property name="player" value="Lebron James"/>
 		<property name="team" value="LA Lakers"/>
 		<property name="teamLastSeason" value="Cleveland Cavaliers"/>
 		<property name="quote" value="You can't be afraid to fail"/>
 	</bean>
 	
-	<bean id="shout03" class="acme.entities.shouts.Shout">
+	<bean id="player03" class="acme.entities.players.Player">
 		<property name="player" value="Kyrie Irving"/>
 		<property name="team" value="Brookyln Nets"/>
 		<property name="teamLastSeason" value="Boston Celtics"/>

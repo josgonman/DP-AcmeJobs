@@ -1,5 +1,5 @@
 
-package acme.entities.shouts;
+package acme.entities.players;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
@@ -11,7 +11,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Shout extends DomainEntity {
+public class Player extends DomainEntity {
 
 	private static final long	serialVersionUID	= 1L;
 
