@@ -1,0 +1,11 @@
+anonymous.player.form.label.player = Jugador:
+anonymous.player.form.label.team = Equipo:
+anonymous.player.form.label.teamLastSeason = Equipo de la Temporada Pasada:
+anonymous.player.form.label.quote = Frase Favorita:
+anonymous.player.form.button.create = Crear
+anonymous.player.form.button.return = Volver
+
+anonymous.player.list.label.player = Jugador
+anonymous.player.list.label.team = Equipo
+anonymous.player.list.label.teamLastSeason = Equipo de la Temporada Pasada
+anonymous.player.list.label.quote = Frase Favorita:

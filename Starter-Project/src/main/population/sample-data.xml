@@ -16,5 +16,46 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<!--  Shouts -->
+	
+	<bean id="shout01" class="acme.entities.shouts.Shout">
+		<property name="author" value="Jose Rodriguez"/>
+		<property name="text" value="I'm sad!"/>
+		<property name="moment" value="2019/09/09 10:00"/>
+	</bean>
 
+	<bean id="shout02" class="acme.entities.shouts.Shout">
+		<property name="author" value="Javi García"/>
+		<property name="text" value="I'm studying!"/>
+		<property name="moment" value="2019/08/09 15:55"/>
+	</bean>
+	
+	<bean id="shout03" class="acme.entities.shouts.Shout">
+		<property name="author" value="Migue Gomez"/>
+		<property name="text" value="I'm playing chess"/>
+		<property name="moment" value="2019/09/07 00:00"/>
+	</bean>
+	
+	<bean id="player01" class="acme.entities.players.Player">
+		<property name="player" value="Stephen Curry"/>
+		<property name="team" value="Golden State Warriors"/>
+		<property name="teamLastSeason" value="Golden State Warriors"/>
+		<property name="quote" value="Success is not an accident, success is actually a choice"/>
+	</bean>
+
+	<bean id="player02" class="acme.entities.players.Player">
+		<property name="player" value="Lebron James"/>
+		<property name="team" value="LA Lakers"/>
+		<property name="teamLastSeason" value="Cleveland Cavaliers"/>
+		<property name="quote" value="You can't be afraid to fail"/>
+	</bean>
+	
+	<bean id="player03" class="acme.entities.players.Player">
+		<property name="player" value="Kyrie Irving"/>
+		<property name="team" value="Brookyln Nets"/>
+		<property name="teamLastSeason" value="Boston Celtics"/>
+		<property name="quote" value="Everybody in the NBA is good. And then you have the really good ones and the great ones"/>
+	</bean>	
+	
 </beans>
