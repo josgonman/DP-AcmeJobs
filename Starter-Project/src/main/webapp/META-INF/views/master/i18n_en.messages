@@ -35,6 +35,8 @@ master.menu.anonymous.favourite-linkC = Jose Manuel Gonzalez's favourite link
 master.menu.anonymous.favourite-linkD = Miguel Ponce Melero's favourite link
 master.menu.anonymous.listShouts = List Shouts
 master.menu.anonymous.createShouts = Shouts!
+master.menu.anonymous.listPlayersPedro = (Pedro's Bulletin) List NBA Players
+master.menu.anonymous.createPlayersPedro = (Pedro's Bulletin) Create NBA Players
 
 # master.menu.administrator ###################################################
 

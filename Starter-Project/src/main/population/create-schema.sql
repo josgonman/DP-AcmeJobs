@@ -29,6 +29,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `player` (
+       `id` integer not null,
+        `version` integer not null,
+        `player` varchar(255),
+        `quote` varchar(255),
+        `team` varchar(255),
+        `team_last_season` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,

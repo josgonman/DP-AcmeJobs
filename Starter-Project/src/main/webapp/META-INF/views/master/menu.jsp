@@ -33,7 +33,13 @@
 		<!-- master.menu.anonymous.listShouts Listar Gritos -->
 			<acme:menu-suboption code="master.menu.anonymous.listShouts" action="/anonymous/shout/list"/>
 		<!-- master.menu.anonymous.createShouts Crear un grito -->
-			<acme:menu-suboption code="master.menu.anonymous.createShouts" action="/anonymous/shout/create"/>				
+			<acme:menu-suboption code="master.menu.anonymous.createShouts" action="/anonymous/shout/create"/>
+			
+		<!-- master.menu.anonymous.listPlayers Listar Jugadores -->
+			<acme:menu-suboption code="master.menu.anonymous.listPlayersPedro" action="/anonymous/player/list"/>
+		<!-- master.menu.anonymous.createPlayers Crear un Jugador -->
+			<acme:menu-suboption code="master.menu.anonymous.createPlayersPedro" action="/anonymous/player/create"/>
+							
 	</acme:menu-option>
 		
 
