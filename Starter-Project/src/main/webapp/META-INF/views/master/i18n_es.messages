@@ -33,6 +33,8 @@ master.menu.anonymous.favourite-linkA = Enlace al github de Alejandro Fuentes GÃ
 master.menu.anonymous.favourite-linkB = Enlace al link favorito de Pedro Padilla Molina
 master.menu.anonymous.favourite-linkC = Enlace al link favorito de Jose Manuel Gonzalez
 master.menu.anonymous.favourite-linkD = Enlace al link favorito de Miguel Ponce Melero
+master.menu.anonymous.shout = Gritar!
+master.menu.anonymous.shoutlist = lista de gritos
 
 
 # master.menu.administrator ###################################################
