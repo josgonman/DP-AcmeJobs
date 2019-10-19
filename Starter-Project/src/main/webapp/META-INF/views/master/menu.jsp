@@ -27,9 +27,11 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkC" action="https://es.stackoverflow.com/"/>	
 		<!-- master.menu.anonymous.favourite-link Link Link Favorito Miguel -->
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://www.informatica.us.es/"/>	
-		<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>
-			<acme:menu-suboption code="master.menu.anonymous.shoutlist" action="/anonymous/shout/list"/>
-	
+			<acme:menu-separator/>
+		<!-- master.menu.anonymous.shout Shout! -->
+			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>	
+		<!-- master.menu.anonymous.shout Shout List -->
+			<acme:menu-suboption code="master.menu.anonymous.shoutList" action="/anonymous/shout/list"/>	
 	</acme:menu-option>
 		
 
