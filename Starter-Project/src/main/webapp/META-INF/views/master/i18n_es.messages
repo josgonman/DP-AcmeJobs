@@ -47,6 +47,9 @@ master.menu.anonymous.createPlayersPedro = Padilla Boletín: Crear Jugadores NBA
 master.menu.anonymous.offer = Gonzalez Boletín: Crear Oferta
 master.menu.anonymous.offerList = Gonzalez Boletín: Lista Ofertas
 
+master.menu.anonymous.book = Boletin Miguel: Crear Libro
+master.menu.anonymous.bookList = Miguel's Bulletin: Lista de Libros
+
 
 # master.menu.administrator ###################################################
 

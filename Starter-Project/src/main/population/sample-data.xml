@@ -98,6 +98,24 @@
 		<property name="moment" value="2019/10/08 11:30"/>
 	</bean>	
 	
+	<bean id="book01" class="acme.entities.books.Book">
+		<property name="author" value="George RR Martin"/>
+		<property name="title" value="A Game Of Thrones"/>
+		<property name="moment" value="2019/09/09 10:00"/>
+	</bean>
+	
+	<bean id="book02" class="acme.entities.books.Book">
+		<property name="author" value="Suzanne Collins"/>
+		<property name="title" value="The Hunger Games"/>
+		<property name="moment" value="2019/09/08 11:00"/>
+	</bean>
+	
+	<bean id="book03" class="acme.entities.books.Book">
+		<property name="author" value="Michael Ende"/>
+		<property name="title" value="The NeverEnding Story"/>
+		<property name="moment" value="2019/09/07 12:00"/>
+	</bean>
+	
 </beans>
 
 

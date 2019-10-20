@@ -49,6 +49,11 @@
 			<acme:menu-suboption code="master.menu.anonymous.offer" action="/anonymous/offer/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.offerList" action="/anonymous/offer/list"/>
 			
+			<acme:menu-separator/>
+			
+			<acme:menu-suboption code="master.menu.anonymous.book" action="/anonymous/book/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.bookList" action="/anonymous/book/list"/>
+			
 			
 		
 	</acme:menu-option>
