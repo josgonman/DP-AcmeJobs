@@ -1,8 +1,0 @@
-anonymous.book.list.label.moment = Moment
-anonymous.book.list.label.author = Author
-anonymous.book.list.label.title = Title
-
-anonymous.book.form.label.author = Author
-anonymous.book.form.label.title = Title
-anonymous.book.form.button.create = Create
-anonymous.book.form.button.return = Return
